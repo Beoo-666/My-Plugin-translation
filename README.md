@@ -1,2 +1,2 @@
-# Plugin-translation
-我的插件语言文件翻译汉化
+# My plugin translation
+我的插件翻译汉化
