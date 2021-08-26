@@ -1,0 +1,20 @@
+<T> </T>
+<T> </T>
+<T> </T>
+<T> </T>
+<T> </T>
+<T> </T>
+<T>    §x§f§5§f§e§f§4[§x§e§b§f§e§e§a初§x§e§1§f§e§e§0出§x§d§7§f§d§d§5茅§x§c§d§f§d§c§b庐§x§c§3§f§d§c§1] &6&l➜ §x§f§7§e§e§e§b[§x§e§f§d§e§d§8声§x§e§8§c§e§c§4名§x§e§0§b§e§b§1鹤§x§d§8§a§e§9§d起§x§d§1§9§e§8§a]</T>
+<T>&a&l&n          升级所需条件          </T>
+<T>&f&l在线时长 &d120&l小时 &f&l当前: &d&l%statistic_hours_played%小时</T>
+<T>&f&l消耗金币 &6x20000  &f&l当前: &6&l%cmi_user_balance_formatted% &6⛃</T>
+<T>&f&l挖掘石头 &7x10000  &f&l当前: &7&l%statistic_mine_block:stone%块</T>
+<T>&f&l收获小麦 &2x2000   &f&l当前: &2&l%statistic_mine_block:wheat%个</T>
+<T>&a&l▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</T>
+<T>&3&l&n          升级获得特权          </T>
+<T> &8&l▪ &3&l身份等级: §x§f§7§e§e§e§b[§x§e§f§d§e§d§8声§x§e§8§c§e§c§4名§x§e§0§b§e§b§1鹤§x§d§8§a§e§9§d起§x§d§1§9§e§8§a]</T>
+<T> &8&l▪ &3&l领地大小: &a100*256*100</T>
+<T> &8&l▪ &3&l领地数量: &a2个</T>
+<T> &8&l▪ &3&l圈地价格: &60.9/块</T>
+<T> &8&l▪ &3&l家的数量: &c4个</T>
+<T>&3&l▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</T>

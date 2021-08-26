@@ -1,0 +1,22 @@
+<T> </T>
+<T> </T>
+<T> </T>
+<T> </T>
+<T> </T>
+<T> </T>
+<T>     §x§f§7§e§e§e§b[§x§e§f§d§e§d§8声§x§e§8§c§e§c§4名§x§e§0§b§e§b§1鹤§x§d§8§a§e§9§d起§x§d§1§9§e§8§a] &6&l➜ §x§e§c§f§0§f§7[§x§d§9§e§1§e§f力§x§c§6§d§2§e§8挽§x§b§3§c§3§e§0狂§x§a§0§b§4§d§8澜§x§8§e§a§6§d§1]</T>
+<T>&a&l&n           升级所需条件           </T>
+<T>&f&l在线时长 &d240&l小时   &f&l当前: &d&l%statistic_hours_played%小时</T>
+<T>&f&l消耗金币 &6x60000    &f&l当前: &6&l%cmi_user_balance_formatted% &6⛃</T>
+<T>&f&l击杀怪物 &cx3000     &f&l当前: &c&l%statistic_mob_kills%只</T>
+<T>&f&l挖掘石头 &7x30000    &f&l当前: &7&l%statistic_mine_block:stone%块</T>
+<T>&f&l破坏橡木原木 &9x2000 &f&l当前: &b&l%statistic_mine_block:oak_log%个</T>
+<T>&f&l破坏白桦原木 &9x2000 &f&l当前: &b&l%statistic_mine_block:birch_log%个</T>
+<T>&a&l▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</T>
+<T>&3&l&n           升级获得特权           </T>
+<T>  &8&l▪ &3&l身份等级: §x§e§c§f§0§f§7[§x§d§9§e§1§e§f力§x§c§6§d§2§e§8挽§x§b§3§c§3§e§0狂§x§a§0§b§4§d§8澜§x§8§e§a§6§d§1]</T>
+<T>  &8&l▪ &3&l领地大小: &a120*256*120</T>
+<T>  &8&l▪ &3&l领地数量: &a3个</T>
+<T>  &8&l▪ &3&l圈地价格: &60.8/块</T>
+<T>  &8&l▪ &3&l家的数量: &c5个</T>
+<T>&3&l▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</T>
