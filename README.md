@@ -1,4 +1,4 @@
-# ---------------- LuckPerms 常用命令 ----------------  
+# ------------------------------ LuckPerms 常用命令 --------------------------------
 ```java
 lp creategroup <权限组>   // 创建权限组
 lp listgroups   // 列出所有权限组 
@@ -13,7 +13,7 @@ lp group default setdisplayname <名称>    // 为 default 权限组设置显示
 lp group default meta addprefix 100 <前缀>    // 为 default 权限组设置优先级 100 的前缀
 lp group default meta removeprefix 100 <前缀>   // 为 default 权限组删除优先级 100 的前缀
 ```
-# -------- LuckPerms 变量 --------  
+# ------------------------------ LuckPerms 变量 --------------------------------
 ```JAVA
  %luckperms_prefix%    // 返回玩家的前缀
  %luckperms_suffix%    // 返回玩家的后缀
