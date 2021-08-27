@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## 欢迎来到GitHub页面
 
-You can use the [editor on GitHub](https://github.com/Beoo-666/Repository/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+你可以使用 [GitHub上的编辑器](https://github.com/Beoo-666/Repository/edit/main/docs/index.md) 来维护和预览你的网站在Markdown文件中的内容.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+每当你提交到这个仓库时，GitHub Pages会运行 [杰基尔](https://jekyllrb.com/) 从你的Markdown文件中的内容来重建你的网站的页面.
 
-### Markdown
+### 标记
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown是一种轻量级的、易于使用的语法，用于设计你的写作风格。它包括以下惯例
 
 ```markdown
-Syntax highlighted code block
+语法突出的代码块
 
-# Header 1
-## Header 2
-### Header 3
+# 标题 1
+## 标题 2
+### 标题 3
 
-- Bulleted
-- List
+- 突出显示
+- 列表
 
-1. Numbered
-2. List
+1. 编号
+2. 列表
 
-**Bold** and _Italic_ and `Code` text
+**胆大心细** 和 _斜体_ 和 `编码` 文本
 
-[Link](url) and ![Image](src)
+[链接](url) 和 ![图片](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+更多细节见 [GitHub风味的Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### 杰基尔主题
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Beoo-666/Repository/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+你的Pages网站将使用你在[资源库设置](https://github.com/Beoo-666/Repository/settings/pages)中选择的Jekyll主题的布局和样式。
+这个主题的名字被保存在Jekyll的`_config.yml`配置文件中.
 
-### Support or Contact
+### 支持或联系
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+在使用Pages时遇到困难？请查看我们的 [文件](https://docs.github.com/categories/github-pages-basics/) 或 [联系支持](https://support.github.com/contact) 我们将帮助你解决这个问题.
