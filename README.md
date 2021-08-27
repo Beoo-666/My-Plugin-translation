@@ -4,8 +4,8 @@ lp creategroup <权限组>   // 创建权限组
 lp listgroups   // 列出所有权限组 
 lp deletegroup <权限组>   // 删除权限组
 lp user <玩家> permission set <权限>   // 给玩家设置权限
-lp group default permission set - <权限> [true|false] [背景...]   // 给权限组设置权限
-lp user <玩家> clear   // 清除玩家的使用权限
+lp group default permission set - <权限> [true|false] [上下文...]   // 给权限组设置权限
+lp user <玩家> clear   // 清除玩家的权限
 lp user <玩家> parent add default   // 让玩家继承权限组
 lp user <玩家> parent addtemp <权限组> 31d   // 将 _Beoo 拉入权限组31天
 lp group default editor    // 开启编辑网页接口
