@@ -8,7 +8,7 @@ lp group default permission set - <权限> [true|false] [上下文...]   // 给�
 lp user <玩家> clear   // 清除玩家的权限
 lp user <玩家> parent add default   // 让玩家继承权限组
 lp user <玩家> parent addtemp <权限组> 31d   // 将 _Beoo 拉入权限组31天
-lp group default editor    // 开启编辑网页接口
+lp group default editor    // 为 default 权限组开启编辑网页接口
 lp group default setdisplayname <名称>    // 为 default 权限组设置显示名称
 lp group default meta addprefix 100 <前缀>    // 为 default 权限组设置优先级 100 的前缀
 lp group default meta removeprefix 100 <前缀>   // 为 default 权限组删除优先级 100 的前缀
