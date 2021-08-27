@@ -1,6 +1,6 @@
 # -------- LuckPerms 常用命令 --------  
-```JAVA
-lp creategroup <权限组>   // 创建权限组
+```yaml
+lp creategroup <权限组>   # 创建权限组
 lp listgroups   // 列出所有权限组 
 lp deletegroup <权限组>   // 删除权限组
 lp user <玩家> permission set <权限>   // 给玩家设置权限
@@ -18,45 +18,6 @@ lp group default meta removeprefix 100 <前缀>   // 为 default 权限组删除
  %luckperms_prefix%    // 返回玩家的前缀
  %luckperms_suffix%    // 返回玩家的后缀
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
