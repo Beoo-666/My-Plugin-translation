@@ -1,0 +1,848 @@
+---
+missions:
+  farmer:
+    item:
+      material: "SUGAR_CANE"
+      amount: 1
+      displayName: "Farmer"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Grow 10 Sugarcane: %progress_1%/10"
+      - "* Grow 10 Wheat: %progress_2%/10"
+      - "* Grow 10 Carrots: %progress_3%/10"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "GROW:SUGAR_CANE:10"
+    - "GROW:WHEAT:10"
+    - "GROW:CARROTS:10"
+    missionType: "DAILY"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Farmer Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Farmer mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  hunter:
+    item:
+      material: "BONE"
+      amount: 1
+      displayName: "Hunter"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Kill 10 Zombies: %progress_1%/10"
+      - "* Kill 10 Skeletons: %progress_2%/10"
+      - "* Kill 10 Creepers: %progress_3%/10"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "KILL:ZOMBIE:10"
+    - "KILL:SKELETON:10"
+    - "KILL:CREEPER:10"
+    missionType: "DAILY"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Hunter Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Hunter mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  baker:
+    item:
+      material: "BREAD"
+      amount: 1
+      displayName: "Baker"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Bake 64 Bread: %progress_1%/64"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "CRAFT:BREAD:64"
+    missionType: "DAILY"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Baker Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Baker mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  miner:
+    item:
+      material: "GOLD_ORE"
+      amount: 1
+      displayName: "Miner"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Mine 15 Iron Ores: %progress_1%/15"
+      - "* Mine 30 Coal Ores: %progress_2%/30"
+      - "* Mine 1 Diamond Ore: %progress_3%/1"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "MINE:IRON_ORE:15"
+    - "MINE:COAL_ORE:30"
+    - "MINE:DIAMOND_ORE:1"
+    missionType: "DAILY"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Miner Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Miner mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  fisherman:
+    item:
+      material: "FISHING_ROD"
+      amount: 1
+      displayName: "Fisherman"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Catch 10 Fish: %progress_1%/10"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "FISH:ANY:10"
+    missionType: "DAILY"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Fisherman Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Fisherman mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  blacksmith:
+    item:
+      material: "IRON_INGOT"
+      amount: 1
+      displayName: "Blacksmith"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Smelt 30 Iron Ores: %progress_1%/30"
+      - "* Smelt 15 Gold Ores: %progress_2%/15"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "SMELT:IRON_ORE:30"
+    - "SMELT:GOLD_ORE:15"
+    missionType: "DAILY"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Blacksmith Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Blacksmith mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  potionbrewer:
+    item:
+      material: "POTION"
+      amount: 1
+      displayName: "Potion Brewer"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Brew 3 Speed II Potions: %progress_1%/3"
+      - "* Brew 3 Strength II Potions: %progress_2%/3"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "BREW:SPEED:2:3"
+    - "BREW:STRENGTH:2:3"
+    missionType: "DAILY"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "PotionBrewer Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Potion Brewer mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  lumberjack:
+    item:
+      material: "OAK_LOG"
+      amount: 1
+      displayName: "Lumberjack"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Chop down 16 logs: %progress_1%/16"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "MINE:OAK_LOG:16"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Lumberjack Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        - "* $1000"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Lumberjack mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  crafting:
+    item:
+      material: "CRAFTING_TABLE"
+      amount: 1
+      displayName: "Crafting"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Craft a crafting table: %progress_1%/1"
+      - "* Craft 4 furnaces: %progress_2%/4"
+      - "* Craft 4 chests: %progress_3%/4"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "CRAFT:CRAFTING_TABLE:1"
+    - "CRAFT:FURNACE:4"
+    - "CRAFT:CHEST:4"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Crafting Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        - "* $1000"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Crafting Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  mining:
+    item:
+      material: "COBBLESTONE"
+      amount: 1
+      displayName: "Miner"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Create a cobble generator and mine 100 cobblestone: %progress_1%/100"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "MINE:COBBLESTONE:100"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Mining Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        - "* $1000"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Mining Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  killMobs:
+    item:
+      material: "DIAMOND_SWORD"
+      amount: 1
+      displayName: "Hunter"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Kill 10 Zombies: %progress_1%/10"
+      - "* Kill 10 Skeletons: %progress_2%/10"
+      - "* Kill 10 Creepers: %progress_3%/10"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "KILL:ZOMBIE:10"
+    - "KILL:SKELETON:10"
+    - "KILL:CREEPER:10"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Hunter Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Hunter mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  wheat:
+    item:
+      material: "WHEAT"
+      amount: 1
+      displayName: "Wheat Farmer"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Grow 64 Wheat: %progress_1%/64"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "GROW:WHEAT:64"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Wheat Farmer Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Wheat Farmer mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  carrots:
+    item:
+      material: "CARROT"
+      amount: 1
+      displayName: "Carrot Farmer"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Grow 64 Carrots: %progress_1%/64"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "GROW:CARROTS:64"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Carrot Farmer Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Carrot Farmer mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  melon:
+    item:
+      material: "MELON_SLICE"
+      amount: 1
+      displayName: "Melon Farmer"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Grow 64 Melons: %progress_1%/64"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "GROW:MELON:64"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Melon Farmer Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Melon Farmer mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  sugarcane:
+    item:
+      material: "SUGAR_CANE"
+      amount: 1
+      displayName: "Sugar Cane Farmer"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Grow 64 Sugar Cane: %progress_1%/64"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "GROW:SUGAR_CANE:64"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Sugar Cane Farmer Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Sugar Cane Farmer mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  cactus:
+    item:
+      material: "CACTUS"
+      amount: 1
+      displayName: "Cactus Farmer"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Grow 64 Cactus: %progress_1%/64"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "GROW:CACTUS:64"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Cactus Farmer Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Cactus Farmer mission Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  iron:
+    item:
+      material: "IRON_ORE"
+      amount: 1
+      displayName: "Mine & Smelt Iron"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Fine and mine 32 Iron Ores: %progress_1%/32"
+      - "* Smelt 32 Iron Ingots: %progress_2%/32"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "MINE:IRON_ORE:32"
+    - "SMELT:IRON_ORE:32"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Mining Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        - "* $1000"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Mining and smelting Iron Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+  diamonds:
+    item:
+      material: "DIAMOND_ORE"
+      amount: 1
+      displayName: "Mine Diamonds"
+      headData: null
+      headOwner: null
+      lore:
+      - "Complete Island Missions to gain rewards"
+      - "Which can be used to purchase Island Upgrades"
+      - ""
+      - "Objectives:"
+      - "* Fine and mine 5 diamond ore: %progress_1%/5"
+      - ""
+      - "Rewards"
+      - "* 2 Island Crystals"
+      - "* $1000"
+      slot: null
+    missions:
+    - "MINE:DIAMOND_ORE:5"
+    missionType: "ONCE"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "Mining Reward"
+        headData: null
+        headOwner: null
+        lore:
+        - " Rewards"
+        - "* 3 Island Crystals"
+        - "* $1000"
+        slot: null
+      commands: []
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+    - "%prefix% Mining Diamonds Completed!"
+    - "* +3 Island Experience"
+    - "* +5 Island Crystals"
+    - "* +1000 Money"
+    - "/is rewards to redeem rewards"
+dailySlots:
+- 10
+- 12
+- 14
+- 16

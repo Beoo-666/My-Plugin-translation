@@ -1,0 +1,46 @@
+---
+crystalsBankItem:
+  name: "crystals"
+  defaultAmount: 10.0
+  enabled: true
+  item:
+    material: "NETHER_STAR"
+    amount: 1
+    displayName: "Island Crystals"
+    headData: null
+    headOwner: null
+    lore:
+    - "%amount% Crystals"
+    - "[!] Left click to withdraw"
+    - "[!] Right click to deposit"
+    slot: 13
+experienceBankItem:
+  name: "experience"
+  defaultAmount: 10.0
+  enabled: true
+  item:
+    material: "EXPERIENCE_BOTTLE"
+    amount: 1
+    displayName: "Island Experience"
+    headData: null
+    headOwner: null
+    lore:
+    - "%amount% Experience"
+    - "[!] Left click to withdraw"
+    - "[!] Right click to deposit"
+    slot: 15
+moneyBankItem:
+  name: "money"
+  defaultAmount: 10.0
+  enabled: true
+  item:
+    material: "PAPER"
+    amount: 1
+    displayName: "Island Money"
+    headData: null
+    headOwner: null
+    lore:
+    - "$%amount%"
+    - "[!] Left click to withdraw"
+    - "[!] Right click to deposit"
+    slot: 11

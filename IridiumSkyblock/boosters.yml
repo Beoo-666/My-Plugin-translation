@@ -1,0 +1,89 @@
+---
+farmingBooster:
+  item:
+    material: "WHEAT"
+    amount: 1
+    displayName: "Farming Booster"
+    headData: null
+    headOwner: null
+    lore:
+    - "Crops growing too slow? Buy this"
+    - "booster and double crop growth."
+    - ""
+    - "Information:"
+    - " * Time Remaining: %timeremaining_minutes% minutes and %timeremaining_seconds%\
+      \ seconds"
+    - " * Booster Cost: %crystalcost% Crystals and $%vaultcost%"
+    - ""
+    - "[!] Right Click to Purchase this Booster."
+    slot: 10
+  crystalsCost: 15
+  vaultCost: 10000
+  time: 3600
+  enabled: true
+spawnerBooster:
+  item:
+    material: "SPAWNER"
+    amount: 1
+    displayName: "Spawner Booster"
+    headData: null
+    headOwner: null
+    lore:
+    - "Spawners too slow? Buy this"
+    - "booster and double your spawner speed."
+    - ""
+    - "Information:"
+    - " * Time Remaining: %timeremaining_minutes% minutes and %timeremaining_seconds%\
+      \ seconds"
+    - " * Booster Cost: %crystalcost% Crystals and $%vaultcost%"
+    - ""
+    - "[!] Right Click to Purchase this Booster."
+    slot: 12
+  crystalsCost: 15
+  vaultCost: 10000
+  time: 3600
+  enabled: true
+experienceBooster:
+  item:
+    material: "EXPERIENCE_BOTTLE"
+    amount: 1
+    displayName: "Experience Booster"
+    headData: null
+    headOwner: null
+    lore:
+    - "Gaining Experience too slow? Buy this"
+    - "booster and double experience drops."
+    - ""
+    - "Information:"
+    - " * Time Remaining: %timeremaining_minutes% minutes and %timeremaining_seconds%\
+      \ seconds"
+    - " * Booster Cost: %crystalcost% Crystals and $%vaultcost%"
+    - ""
+    - "[!] Right Click to Purchase this Booster."
+    slot: 14
+  crystalsCost: 15
+  vaultCost: 10000
+  time: 3600
+  enabled: true
+flightBooster:
+  item:
+    material: "FEATHER"
+    amount: 1
+    displayName: "Flight Booster"
+    headData: null
+    headOwner: null
+    lore:
+    - "Keep falling off your island? Buy this"
+    - "booster and Gain access to /is fly."
+    - ""
+    - "Information:"
+    - " * Time Remaining: %timeremaining_minutes% minutes and %timeremaining_seconds%\
+      \ seconds"
+    - " * Booster Cost: %crystalcost% Crystals and $%vaultcost%"
+    - ""
+    - "[!] Right Click to Purchase this Booster."
+    slot: 16
+  crystalsCost: 15
+  vaultCost: 10000
+  time: 3600
+  enabled: true

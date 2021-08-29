@@ -1,0 +1,235 @@
+---
+sizeUpgrade:
+  enabled: true
+  item:
+    material: "GRASS_BLOCK"
+    amount: 1
+    displayName: "Island Size"
+    headData: null
+    headOwner: null
+    lore:
+    - "Need more room to expand? Buy this"
+    - "upgrade to increase your island size."
+    - ""
+    - "Information:"
+    - " * Current Level: %level%"
+    - " * Current Size: %size%x%size% Blocks"
+    - " * Upgrade Cost: %crystalscost% Crystals and $%vaultcost%"
+    - "Levels:"
+    - " * Level 1: 50x50 Blocks"
+    - " * Level 2: 100x100 Blocks"
+    - " * Level 3: 150x150 Blocks"
+    - ""
+    - "[!] Left Click to Purchase this Upgrade"
+    slot: 11
+  upgrades:
+    1:
+      money: 1000
+      crystals: 15
+      size: 50
+    2:
+      money: 1000
+      crystals: 15
+      size: 100
+    3:
+      money: 1000
+      crystals: 15
+      size: 150
+memberUpgrade:
+  enabled: true
+  item:
+    material: "ARMOR_STAND"
+    amount: 1
+    displayName: "Island Members"
+    headData: null
+    headOwner: null
+    lore:
+    - "Need more members? Buy this"
+    - "upgrade to increase your member count."
+    - ""
+    - "Information:"
+    - " * Current Level: %level%"
+    - " * Current Member: %amount% Members"
+    - " * Upgrade Cost: %crystalscost% Crystals and $%vaultcost%"
+    - "Levels:"
+    - " * Level 1: 9 Members"
+    - " * Level 2: 18 Members"
+    - " * Level 3: 27 Members"
+    - ""
+    - "[!] Left Click to Purchase this Upgrade"
+    slot: 12
+  upgrades:
+    1:
+      money: 1000
+      crystals: 15
+      amount: 9
+    2:
+      money: 1000
+      crystals: 15
+      amount: 18
+    3:
+      money: 1000
+      crystals: 15
+      amount: 27
+blockLimitUpgrade:
+  enabled: true
+  item:
+    material: "HOPPER"
+    amount: 1
+    displayName: "Island Block Limits"
+    headData: null
+    headOwner: null
+    lore:
+    - "Need to place more blocks? Buy this"
+    - "upgrade to increase the amount of blocks you can place."
+    - ""
+    - "Information:"
+    - " * Current Level: %level%"
+    - " * Upgrade Cost: %crystalscost% Crystals and $%vaultcost%"
+    - ""
+    - "[!] Left Click to Purchase this Upgrade"
+    slot: 13
+  upgrades:
+    1:
+      money: 1000
+      crystals: 15
+      limits:
+        HOPPER: 15
+        PISTON: 10
+        SPAWNER: 10
+    2:
+      money: 1000
+      crystals: 15
+      limits:
+        HOPPER: 20
+        PISTON: 15
+        SPAWNER: 15
+    3:
+      money: 1000
+      crystals: 15
+      limits:
+        HOPPER: 25
+        PISTON: 20
+        SPAWNER: 20
+    4:
+      money: 1000
+      crystals: 15
+      limits:
+        HOPPER: 30
+        PISTON: 25
+        SPAWNER: 25
+    5:
+      money: 1000
+      crystals: 15
+      limits:
+        HOPPER: 40
+        PISTON: 30
+        SPAWNER: 30
+warpsUpgrade:
+  enabled: true
+  item:
+    material: "END_PORTAL_FRAME"
+    amount: 1
+    displayName: "Island Warps"
+    headData: null
+    headOwner: null
+    lore:
+    - "Need more island warps? Buy this"
+    - "upgrade to increase your island warps."
+    - ""
+    - "Information:"
+    - " * Current Level: %level%"
+    - " * Upgrade Cost: %crystalscost% Crystals and $%vaultcost%"
+    - "Levels:"
+    - " * Level 1: 1 Warp"
+    - " * Level 2: 2 Warp"
+    - " * Level 3: 3 Warp"
+    - " * Level 4: 4 Warp"
+    - " * Level 5: 5 Warp"
+    - ""
+    - "[!] Left Click to Purchase this Upgrade"
+    slot: 14
+  upgrades:
+    1:
+      money: 1000
+      crystals: 15
+      amount: 1
+    2:
+      money: 1000
+      crystals: 15
+      amount: 2
+    3:
+      money: 1000
+      crystals: 15
+      amount: 3
+    4:
+      money: 1000
+      crystals: 15
+      amount: 4
+    5:
+      money: 1000
+      crystals: 15
+      amount: 5
+oresUpgrade:
+  enabled: true
+  item:
+    material: "DIAMOND_ORE"
+    amount: 1
+    displayName: "Island Generator"
+    headData: null
+    headOwner: null
+    lore:
+    - "Want to improve your generator? Buy this"
+    - "upgrade to improve your island generator."
+    - ""
+    - "Information:"
+    - " * Current Level: %level%"
+    - " * Upgrade Cost: %crystalscost% Crystals and $%vaultcost%"
+    - ""
+    - "[!] Left Click to Purchase this Upgrade"
+    slot: 15
+  upgrades:
+    1:
+      money: 1000
+      crystals: 15
+      ores:
+        COBBLESTONE: 3
+        COAL_ORE: 1
+      netherOres:
+        BASALT: 1
+    2:
+      money: 1000
+      crystals: 15
+      ores:
+        DIAMOND_ORE: 1
+        IRON_ORE: 10
+        REDSTONE_ORE: 10
+        GOLD_ORE: 10
+        LAPIS_ORE: 10
+        COAL_ORE: 20
+        COBBLESTONE: 40
+      netherOres:
+        BASALT: 20
+        GLOWSTONE: 20
+        NETHER_QUARTZ_ORE: 20
+        NETHER_GOLD_ORE: 20
+        NETHERRACK: 20
+        ANCIENT_DEBRIS: 1
+    3:
+      money: 1000
+      crystals: 15
+      ores:
+        DIAMOND_ORE: 10
+        IRON_ORE: 10
+        REDSTONE_ORE: 10
+        GOLD_ORE: 10
+        LAPIS_ORE: 10
+        COAL_ORE: 20
+        COBBLESTONE: 40
+      netherOres:
+        BASALT: 10
+        GLOWSTONE: 10
+        NETHER_QUARTZ_ORE: 10
+        NETHER_GOLD_ORE: 10
+        NETHERRACK: 10
+        ANCIENT_DEBRIS: 1
