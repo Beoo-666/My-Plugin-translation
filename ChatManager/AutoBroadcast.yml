@@ -1,0 +1,63 @@
+Auto_Broadcast:
+  Global_Messages:
+    Enable: false
+    Header_And_Footer: false   # 页眉和页脚
+    Interval: 120
+    Prefix: "&8&l[&b系统公告&8&l]"
+    Header: "&7*&7&m--------------------------------&7*"
+    Footer: "&7*&7&m--------------------------------&7*"
+    Sound: ''
+    Messages:
+      - "{Prefix} &7使用命令 &6/pay [玩家名称] &7可以给玩家转账金币哦"
+      - "{Prefix} &7使用命令 &6/ichat &7列出聊天变量列表，功能非常好用哦。"
+  Per_World_Messages:   # 每个世界发送不同公告
+    Enable: false
+    Header_And_Footer: true
+    Interval: 60
+    Prefix: "&7[&6自动广播&7]"
+    Header: "&7*&7&m--------------------------------&7*"
+    Footer: "&7*&7&m--------------------------------&7*"
+    Sound: ''
+    Messages:
+      world:
+        - "{Prefix} &a欢迎来到服务器!"
+        - "{Prefix} &a希望你喜欢我们的服务器!"
+        - "{Prefix} &a加入我们的聊天室<链接>。"
+        - "{Prefix} &a该服务器正在运行H1DD3NxN1NJA的ChatManager插件。"
+        - "{Prefix} &b你可以在ChatManager > AutoBroadcast.yml中编辑这些内容。"
+      world_nether:
+        - "{Prefix} &7阴间是个可怕的地方"
+        - "{Prefix} &a欢迎来到服务器!"
+        - "{Prefix} &a希望你喜欢我们的服务器!"
+        - "{Prefix} &a加入我们的聊天室<链接>。"
+        - "{Prefix} &a该服务器正在运行H1DD3NxN1NJA的ChatManager插件。"
+        - "{Prefix} &b你可以在ChatManager > AutoBroadcast.yml中编辑这些内容。"
+      world_the_end:
+        - "{Prefix} &a末日是个可怕的地方"
+        - "{Prefix} &a小心终结者之龙!"
+        - "{Prefix} &c不要与终结者进行眼神交流!"
+  Actionbar_Messages:   # 行动栏_消息
+    Enable: false
+    Interval: 10
+    Prefix: "&8&l[&b系统公告&8&l]"
+    Sound: ''
+    Messages:
+      - "{Prefix} &7使用命令 &6/money pay [玩家名称] &7可以给玩家转账金币哦"
+  Title_Messages:   # 标题_信息
+    Enable: false
+    Interval: 60
+    Sound: ''
+    Title: "&c标题"
+    Messages:
+      - "&7自动广播标题信息."
+      - "&7插件创建者：H1DD3NxN1NJA."
+      - "&7你好 &c{player} &7有 &c{online} &7在线玩家."
+  Bossbar_Messages: # 1.9+ 老板栏消息
+    Enable: false
+    Interval: 60
+    Sound: ''
+    Bar_Time: 10 #老板栏保持的时间有多长。
+    Messages:
+      - "&7自动广播bossbar信息."
+      - "&7插件创建者：H1DD3NxN1NJA."
+      - "&7你好 &c{player} &7有 &c{online} &7在线玩家."

@@ -1,0 +1,59 @@
+#=================================================================================================#
+#                                 聊天机器人的主要配置
+#=================================================================================================#
+
+#       1. 这个功能你可以创建触发信息，激活聊天机器人，而机器人会用你的机器人回应。
+#
+#       2. 你可以执行命令，以备你因任何原因需要。
+#
+#       3. 你可以有一个必要的权限，如果玩家没有正确的权限，机器人就不会对该玩家或等级做任何事情。
+#
+#       4. 声音列表
+#       - 1.9和更新的版本：https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+#       - 1.8及以上版本：http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+#
+#       5. 要了解更多关于如何使用聊天工具的信息，请访问我们的维基页面。
+#       - https://github.com/H1DD3NxN1NJA/ChatManager/wiki/Chat-Bot
+#
+#=================================================================================================#
+
+Chat_Bot:
+  Enable: true
+  Bot_Prefix: "&c聊天机器人 &9>> &r"
+  Broadcast_Response: true    #将机器人的反应广播给服务器上的所有人。
+  Response_Time: 5    # 机器人回应玩家的时间，以秒为单位。
+  Sound: ''   #当机器人回答一些人的问题时，会播放声音。使用声音: '' 来禁用
+  
+Messages:
+  One:    # 这个部分的名称，可以是任何东西。
+    Players_Messages:   #玩家必须在聊天中输入的信息，以使机器人激活，你可以添加你想要的数量。
+    - "666"
+
+    Bot_Response: "&f我很好 &e{player}&f, 谢谢你的关心"   #机器人回复的信息。
+
+    Required_Permission: "none"   #执行此信息所需的权限.
+    No_Permission_Message: "none"   #如果你没有权限，机器人会这样说:
+    Executed_Command: "none"    #触发此消息时将执行的命令.
+  Two:
+    Players_Messages:
+    - "箱子在哪里？"
+    - "箱子在哪里？"
+    Bot_Response: "&f他们在 &e/warp crates &f{player}!"
+    Required_Permission: "ChatBot.Crates"
+    No_Permission_Message: "&c对不起 {player}, 但你不能使用板条箱."
+    Executed_Command: "经线箱 {player}"
+  Three:
+    Players_Messages:
+    - "帮助我"
+    - "谁能帮助我?"
+    Bot_Response: "&f当然 &e{player}&f,  &e/help&f!"
+    Required_Permission: "ChatBot.help"
+    No_Permission_Message: "&4No"
+    Executed_Command: "none"
+  Four:
+    Players_Messages:
+    - "我在什么世界里?"
+    Bot_Response: "&f你在这个世界上 &e '{world}' {display_name}&f!"
+    Required_Permission: "none"
+    No_Permission_Message: "none"
+    Executed_Command: "none"
