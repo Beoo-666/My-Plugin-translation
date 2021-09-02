@@ -5,6 +5,7 @@ Minecraft 我的世界 Linux 开服教程
 1. #### 准备一款终端, 推荐[微软终端](https://github.com/microsoft/terminal/releases): https://github.com/microsoft/terminal/releases
 
         ![Image text](https://github.com/Beoo-666/Repository/blob/main/image-20210903024436310.png)
+
 2. 下载FTP工具, 推荐[XFTP](https://www.netsarang.com/zh/free-for-home-school/): https://www.netsarang.com/zh/free-for-home-school/ (注: XFTP免费许可请勿用于商业行为)
 
 3. 下载 JDK 这里使用[甲骨文](https://www.oracle.com/cn/java/technologies/javase-downloads.html)的 JDK: https://www.oracle.com/cn/java/technologies/javase-downloads.html 
